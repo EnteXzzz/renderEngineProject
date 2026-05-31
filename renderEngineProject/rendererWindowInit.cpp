@@ -1,5 +1,11 @@
 ﻿#define GLAD_GL_IMPLEMENTATION
 #include "main.hpp"
+	double GetTime() 
+	{
+		auto now = std::chrono::steady_clock::now();
+		std::chrono::duration<double> elapsed = now - startTime;
+		return elapsed.count();
+	};
 
 int main()
 {
@@ -130,11 +136,7 @@ int main()
 	glDeleteShader(vertexShader);
 	glDeleteShader(fragmentShader);
 
-
-
-	//get the index/location of the uniform variable in the shader program;
-
-	float timeValue;
+	
 
 	while(true)
 	{
@@ -162,6 +164,13 @@ int loop(SDL_Window* window, uint shaderProgram, uint VAO) {
 	glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT);
 	glUseProgram(shaderProgram);
+
+	double TimeValue = GetTime();
+	float greenValue = (sin(TimeValue) / 2.0f) + 0.5f;
+
+	int vertexColorLocation = glGetUniformLocation(shaderProgram, "ourColor");
+	glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
+
 	glBindVertexArray(VAO); 
 	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 	SDL_GL_SwapWindow(window);
