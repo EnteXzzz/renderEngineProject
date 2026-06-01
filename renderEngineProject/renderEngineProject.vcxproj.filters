@@ -15,10 +15,121 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="rendererWindowInit.cpp">
+    <ClCompile Include="include\glad.c">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="include\glad.c">
+    <ClCompile Include="contrib\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\backends\imgui_impl_sdl3.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_allegro5\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_android_opengl3\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_glfw_opengl2\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_glfw_opengl3\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_glfw_vulkan\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_glfw_wgpu\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_glut_opengl2\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_null\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl2_directx11\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl2_opengl2\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl2_opengl3\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl2_sdlrenderer2\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl2_vulkan\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl2_wgpu\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl3_directx11\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl3_opengl3\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl3_sdlgpu3\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl3_sdlrenderer3\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl3_vulkan\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_sdl3_wgpu\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_win32_directx9\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_win32_directx10\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_win32_directx11\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_win32_directx12\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_win32_opengl3\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\example_win32_vulkan\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\examples\libs\usynergy\uSynergy.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\misc\fonts\binary_to_compressed_c.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\misc\freetype\imgui_freetype.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\imgui.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\imgui_demo.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\imgui_draw.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\imgui_tables.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\imgui\imgui_widgets.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,9 +137,88 @@
     <ClInclude Include="main.hpp">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="contrib\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\backends\imgui_impl_sdl3.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\examples\example_allegro5\imconfig_allegro5.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\examples\libs\emscripten\emscripten_mainloop_stub.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\examples\libs\glfw\include\GLFW\glfw3.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\examples\libs\glfw\include\GLFW\glfw3native.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\examples\libs\usynergy\uSynergy.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\misc\freetype\imgui_freetype.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\misc\single_file\imgui_single_file.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\imconfig.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\imgui.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\imgui_internal.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\imstb_rectpack.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\imstb_textedit.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\imgui\imstb_truetype.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\backends\imgui_impl_sdl3.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_rectpack.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_textedit.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_truetype.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertex.glsl" />
     <None Include="fragment.glsl" />
+    <None Include="contrib\imgui\examples\libs\emscripten\shell_minimal.html" />
   </ItemGroup>
 </Project>

@@ -111,7 +111,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp23</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\testLiga\source\repos\renderEngineProject\renderEngineProject\include\KHR;C:\Users\testLiga\source\repos\renderEngineProject\renderEngineProject\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\testLiga\source\repos\renderEngineProject\renderEngineProject\include\KHR;C:\Users\testLiga\source\repos\renderEngineProject\renderEngineProject\include;C:\Users\testLiga\source\repos\renderEngineProject\renderEngineProject\include\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,7 +129,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp23</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\testLiga\source\repos\renderEngineProject\renderEngineProject\include\KHR;C:\Users\testLiga\source\repos\renderEngineProject\renderEngineProject\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\testLiga\source\repos\renderEngineProject\renderEngineProject\include\KHR;C:\Users\testLiga\source\repos\renderEngineProject\renderEngineProject\include;C:\Users\testLiga\source\repos\renderEngineProject\renderEngineProject\include\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,10 +139,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="contrib\imgui\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="contrib\imgui\backends\imgui_impl_sdl3.cpp" />
+    <ClCompile Include="contrib\imgui\imgui.cpp" />
+    <ClCompile Include="contrib\imgui\imgui_draw.cpp" />
+    <ClCompile Include="contrib\imgui\imgui_tables.cpp" />
+    <ClCompile Include="contrib\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="contrib\imgui\misc\cpp\imgui_stdlib.cpp" />
     <ClCompile Include="include\glad.c" />
-    <ClCompile Include="rendererWindowInit.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="contrib\imgui\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="contrib\imgui\backends\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="contrib\imgui\backends\imgui_impl_sdl3.h" />
+    <ClInclude Include="contrib\imgui\imconfig.h" />
+    <ClInclude Include="contrib\imgui\imgui.h" />
+    <ClInclude Include="contrib\imgui\imgui_internal.h" />
+    <ClInclude Include="contrib\imgui\imstb_rectpack.h" />
+    <ClInclude Include="contrib\imgui\imstb_textedit.h" />
+    <ClInclude Include="contrib\imgui\imstb_truetype.h" />
+    <ClInclude Include="contrib\imgui\misc\cpp\imgui_stdlib.h" />
+    <ClInclude Include="contrib\imgui\misc\single_file\imgui_single_file.h" />
+    <ClInclude Include="include\imgui\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="include\imgui\backends\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="include\imgui\backends\imgui_impl_sdl3.h" />
+    <ClInclude Include="include\imgui\imconfig.h" />
+    <ClInclude Include="include\imgui\imgui.h" />
+    <ClInclude Include="include\imgui\imgui_internal.h" />
+    <ClInclude Include="include\imgui\imstb_rectpack.h" />
+    <ClInclude Include="include\imgui\imstb_textedit.h" />
+    <ClInclude Include="include\imgui\imstb_truetype.h" />
     <ClInclude Include="main.hpp" />
   </ItemGroup>
   <ItemGroup>
